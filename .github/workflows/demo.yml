@@ -14,5 +14,5 @@ jobs:
           password: ${{secrets.MAIL_PASSWORD}}
           subject: test maili pealkiri ${{github.repository}}
           body: test maili sisu blablabla
-          to: jyri.vaitmaa@tthk.com
+          to: jyri.vaitmaa@tthk.ee
           from: Github actions
